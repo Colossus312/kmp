@@ -10,8 +10,8 @@ public class MapService {
     MapMapper mapMapper;
 
 
-    public String selecter(){
-        return mapMapper.selecter();
+    public String selector(){
+        return mapMapper.selector();
     }
 
 }

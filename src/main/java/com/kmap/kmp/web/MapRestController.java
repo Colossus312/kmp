@@ -16,6 +16,6 @@ public class MapRestController {
 
     @RequestMapping(value="/api/test", method= RequestMethod.GET)
     public String helloWorld() throws Exception {
-        return mapService.selecter();
+        return mapService.selector();
     }
 }

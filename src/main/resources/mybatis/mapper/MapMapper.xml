@@ -4,7 +4,7 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
 <mapper namespace="com.kmap.kmp.dao.MapMapper">
-   <select id="selecter" resultType="String">
+   <select id="selector" resultType="String">
       SELECT ST_MakePoint(-71.1043443253471, 42.3150676015829)::character varying
    </select>
 </mapper>
